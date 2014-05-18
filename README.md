@@ -10,11 +10,11 @@ A simple browser auto-reload utility for web developers.
 
 ### Build
 
-gowebwatcher server is writting in Go. Refer [here](http://golang.org/doc/install) for instructions on installing Go. 
+gowebwatcher server is written in Go. Refer [here](http://golang.org/doc/install) for instructions on installing Go. 
 
 ```sh
-# go get github.com/porjo/gowebwatcher
-# go install github.com/porjo/gowebwatcher
+$ go get github.com/porjo/gowebwatcher
+$ go install github.com/porjo/gowebwatcher
 ```
 You can then copy the resulting `gowebwatcher` binary (located in $GOPATH/bin) wherever you need it.
 
