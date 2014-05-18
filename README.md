@@ -10,7 +10,7 @@ A simple browser auto-reload utility for web developers.
 
 ### Build
 
-gowebwatcher server is written in Go. Refer [here](http://golang.org/doc/install) for instructions on installing Go. 
+gowebwatcher server is written in Go. Refer [here](http://golang.org/doc/install) for instructions on installing Go. Once you have a working Go environment:
 
 ```sh
 $ go get github.com/porjo/gowebwatcher
@@ -19,6 +19,8 @@ $ go install github.com/porjo/gowebwatcher
 You can then copy the resulting `gowebwatcher` binary (located in $GOPATH/bin) wherever you need it.
 
 ### Usage
+
+`./gowebwatcher <options>`
 
 ```sh
   -ignores="": Ignored file pattens, seprated by ',', used to ignore the filesystem events of some files
